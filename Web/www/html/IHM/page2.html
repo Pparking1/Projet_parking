@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <title>Project parking</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>T</span>ableau de <span>B</span>ord</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.php" data-after="IHM">ihm</a></li>
+            <li><a href="pagehistorique.php" data-after="Historique">Historique</a></li>
+            <li><a href="page2.html" data-after="Aide">Aide</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title"><span>IHM</span></h1>
+        <p>Le système permet de contrôler en temps réel
+          les automobilistes qui se présentent devant la
+          barrière d'entrée et de sortie. Il doit pouvoir assurer une gestion du parking en total 
+          autonomie, l'operateur(vous) doit contrôler est assurer cette autonomie
+          en cas de probléme majeur veuillez nous appeler au numéro ou l'adresse mail ci-dessous.</p>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Les cameras</h1>
+            <h2>Nombre: 2</h2>
+            <p>L'IHM est composé de 2 flux video en directe en haut de la page, la premiére(haut) représente la caméra d'entrée du parking,
+               la seconde(bas) représente la caméra de sortie du parking.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/camerabon.PNG" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Log</h1>
+            <h2>Nombre: 1</h2>
+            <p>Afficher au centre, dans le domaine informatique le terme log désigne un type de fichier
+                   ou une entité équivalente dont la mission principale consiste à stocker un historique des événements.
+               Cette serie d'événement va relever des informations essentiel, les logs vont relever le numéro de plaque,
+                   la date est l'heure d'entrée et de sortie mais surtout en cas d'erreur la panne sera relevé est afficher.
+               Les logs durant une journée de soit 24h aprés ca une boucle recomence, les logs d'hier seront effacer remplacé par les logs d'aujourd'hui,
+                   si l'operateur derire relevé une informations la page historique va permttre de consulté tous les logs depuis le debut, c'est un registre complet des logs.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/logbon.PNG" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Les Tables</h1>
+            <h2>Nombre: 1</h2>
+            <p>Positionner en haut a droite de l'IHM, Les 3 tableaus repertori toute les information concernent les vehicules est les utilisateur inscrite dans la BDD qui sont autoriser a rentré dans le parking.
+               Les tableau connecter a la base permette d'ajouter, modifier est supprimer mai aussi trier est rechercher des informations, la table possede permette d'associer 1 ou plusieurs utilisateur a un vehicule est vice versa.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/tablebon.PNG" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Commandes barriére est led</h1>
+            <h2>Nombre: 1</h2>
+            <p>L'operateur doit pouvoir gérer n'importe qu'elle situation c'est pourquoi des boutons d'ouverture manuelle de la bariérre d'entrée est de sortie on était ajouté, 
+              en cas de refus d'autorisation ou de panne l'operateur peux tout de méme decider de laisser entrer le vehicule, ce dernier a également accée au feux si néccesaire.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/CO2.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Commande de l'afficheur</h1>
+            <h2>Nombre: 1</h2>
+            <p>Enfin, cette derniére partie de l'IHM a pour fonction de controler l'afficheur LED cette derniére est representer par la zone de texte,
+               l'adminitrateur pourra decider du message sous forme de texte ou simple mot clé, grâce a cela l'administrateur pourra communiqué est informer les conducteurs, 
+               bien sur d'aprés le projet l'afficheur affiche aussi le nombre de place restante.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/afficheurbon.PNG" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="./img/img-2.png" alt="img">
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">A propos de <span>nous</span></h1>
+          <h2>Dévellopeur systéme</h2>
+          <h3>Nous sommes tout les 3 etudiant en BTS SN(Systéme Numerique est Réseaux)
+             Nous avons comme projet la gestion d'un parking, chaque etudiant a des tâches differents
+             le premier s'occupe du fonctionnement des cameras, le deuxiéme de la cration de l'ihm, enfin le
+             dernier doit assurer la gestion des barriére, nôtre objectif est de proposer un systéme fonctionnel,
+             fiable et sécuritaire.</h3>
+          <a href="Doc1.docx" class="cta">Télecharger le résumé</a>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+  
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Nous <span>contacter</span></h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+            <div class="contact-info">
+              <h1>N° de téléphone</h1>
+              <h2>06 95 20 08 90</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>yanngauthrin@gmail.com</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+            <div class="contact-info">
+              <h1>Addresse</h1>
+              <h2>Grenay, 82 rue de Peronne</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>E</span>n savoir <span>P</span>lus</h1>
+      </div>
+      <h2>Affichage administrateur</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2022 Projet parking.</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>

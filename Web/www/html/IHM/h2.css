@@ -1,0 +1,158 @@
+#header .header {
+	min-height: 8vh;
+	background-color: rgba(31, 30, 30, 0.24);
+	transition: 0.3s ease background-color;
+}
+
+
+
+
+#ele_3 {
+    margin-left: 170px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+	color: black;
+	font-size: 25px;
+    font-weight: 100;
+}
+span2 {
+	color: crimson;
+	font-size: 30px;
+}
+
+
+
+#scroll {
+	width: 1546px;
+	height: 1853px;
+	overflow-y: scroll;
+	scrollbar-width: thin;
+	background-color: white;
+	padding: 13px;
+	font-size: 12px;
+  }
+
+#scroll::-webkit-scrollbar {
+    width: 6px;
+	border-radius: 5px;
+}
+
+#scroll::-webkit-scrollbar-track {
+    background-color: rgba(179, 179, 179, 0.692);
+	border-radius: 5px;
+}
+
+#scroll::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 25px #516070;
+	border-radius: 5px;
+}
+
+.information_parking {
+	background-color: #dee3e9;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 10px;
+}
+
+.information_parking table {
+	color: black;
+	padding: 4px;
+}
+
+h6  {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 49px;
+	height: 23px;
+  }
+  
+  .switch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+  }
+  
+  .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgb(165, 165, 165);
+	-webkit-transition: .3s;
+	transition: .3s;
+  }
+  
+  .slider:before {
+	position: absolute;
+	content: "";
+	height: 16px;
+	width: 16px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  input:checked + .slider {
+	background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+	border-radius: 34px;
+  }
+  
+  .slider.round:before {
+	border-radius: 50%;
+  }
+
+.commande_barriere  td {
+	 font-size: 12px;
+	 color: black;
+ }
+
+ .commande_barriere {
+	background-color: #dee3e9;
+	font-size: 12px;
+	border-radius: 14px;
+	padding: 4px;
+ }
+
+
+
+ .histo {
+   margin-top: 7px;
+ }
+
+section{
+   display:flex;
+   justify-content:center;
+}
+

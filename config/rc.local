@@ -1,0 +1,8 @@
+#!/bin/bash
+#@reboot ./usr/bin/nodejs /home/openalpr/setup/RTSP_proxy/relay.js
+#@reboot ./usr/bin/nodejs /home/openalpr/setup/RTSP_proxy/relay_2.js
+nodejs /home/openalpr/setup/RTSP_proxy/relay.js &
+nodejs /home/openalpr/setup/RTSP_proxy/relay_2.js &
+echo "Test RC.local" > /home/openalpr/sortie.log &
+# python3 /home/openalpr/setup/1_python_openalpr/main.py > out.log &
+exit 0

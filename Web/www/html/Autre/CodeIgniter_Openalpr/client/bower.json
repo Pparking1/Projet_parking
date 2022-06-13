@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "authors": [
+    "André Abadesso <andre.abadesso@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jsmpeg": "*",
+    "material-design-lite": "~1.0.6"
+  }
+}
